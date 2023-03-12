@@ -7,17 +7,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/webapp1")
+@RequestMapping("/say-hello")
 public class SayHelloController {
 
-    @GetMapping("/say-hello")
+    @GetMapping("/text")
     @ResponseBody //returns the string as it is.
     public String sayHelloWorld()
     {
         return "Hello! Whats up";
     }
 
-    @GetMapping("/say-hello-html")
+    @GetMapping("/html")
     public String sayHelloWorldHtml()
     {
         StringBuffer sb = new StringBuffer();
@@ -33,7 +33,7 @@ public class SayHelloController {
         return sb.toString();
     }
 
-    @GetMapping("/say-hello-jsp")
+    @GetMapping("/jsp")
     public String sayHelloJsp()
     {
         // /src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp - ALL jsp files should be created in this path
