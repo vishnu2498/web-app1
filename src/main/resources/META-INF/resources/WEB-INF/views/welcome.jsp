@@ -3,6 +3,9 @@
 		<title> Welcome Page</title>
 	</head>
 	<body>
-		Welcome to my first welcome page ${name}!
+		<div class="container">
+        			<h1>Welcome ${name}</h1>
+        			<a href="/todo/list-todos">Manage</a> your todos
+        </div>
 	</body>
 </html>

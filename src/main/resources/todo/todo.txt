@@ -1,0 +1,26 @@
+Todo
+------
+
+id
+username
+description
+targetDate
+done
+
+--------------
+
+Store the data in a database - MYSQL, Oracle, H2
+
+-> first, we will create a list of todos
+-> Then, use database
+
+---------------
+
+Request vs Model vs Session
+-----------------------
+
+----------------------
+
+<link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" >
+<script src="webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="webjars/jquery/3.6.0/jquery.min.js"></script>

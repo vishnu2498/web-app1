@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 @Controller
 @RequestMapping("/login")
+@SessionAttributes("name")
 public class LoginController {
 
     private AuthenticationService authenticationService;
