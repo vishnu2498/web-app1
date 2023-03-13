@@ -9,3 +9,6 @@ logging:
   level:
     org:
       springframework: debug
+    com:
+      example:
+        webapp1: info
